@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="45" height="30" tilewidth="128" tileheight="128" infinite="0" nextlayerid="6" nextobjectid="1">
+ <tileset firstgid="1" name="my_tiles" tilewidth="128" tileheight="128" tilecount="166" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image source="platform_tutorial/images/items/coinBronze.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="images/items/coinGold.png"/>
+  </tile>
+  <tile id="2">
+   <image source="platform_tutorial/images/items/coinSilver.png"/>
+  </tile>
+  <tile id="3">
+   <image source="platform_tutorial/images/items/flagGreen_down.png"/>
+  </tile>
+  <tile id="4">
+   <image source="platform_tutorial/images/items/flagGreen1.png"/>
+  </tile>
+  <tile id="5">
+   <image source="platform_tutorial/images/items/flagGreen2.png"/>
+  </tile>
+  <tile id="6">
+   <image source="platform_tutorial/images/items/flagRed_down.png"/>
+  </tile>
+  <tile id="7">
+   <image source="platform_tutorial/images/items/flagRed1.png"/>
+  </tile>
+  <tile id="8">
+   <image source="platform_tutorial/images/items/flagRed2.png"/>
+  </tile>
+  <tile id="9">
+   <image source="platform_tutorial/images/items/flagYellow_down.png"/>
+  </tile>
+  <tile id="10">
+   <image source="platform_tutorial/images/items/flagYellow1.png"/>
+  </tile>
+  <tile id="11">
+   <image source="platform_tutorial/images/items/flagYellow2.png"/>
+  </tile>
+  <tile id="12">
+   <image source="platform_tutorial/images/items/gemBlue.png"/>
+  </tile>
+  <tile id="13">
+   <image source="platform_tutorial/images/items/gemGreen.png"/>
+  </tile>
+  <tile id="14">
+   <image source="platform_tutorial/images/items/gemRed.png"/>
+  </tile>
+  <tile id="15">
+   <image source="platform_tutorial/images/items/gemYellow.png"/>
+  </tile>
+  <tile id="16">
+   <image source="platform_tutorial/images/items/keyBlue.png"/>
+  </tile>
+  <tile id="17">
+   <image source="platform_tutorial/images/items/keyGreen.png"/>
+  </tile>
+  <tile id="18">
+   <image source="platform_tutorial/images/items/keyRed.png"/>
+  </tile>
+  <tile id="19">
+   <image source="platform_tutorial/images/items/keyYellow.png"/>
+  </tile>
+  <tile id="20">
+   <image source="platform_tutorial/images/items/star.png"/>
+  </tile>
+  <tile id="21">
+   <image source="platform_tutorial/images/tiles/boxCrate.png"/>
+  </tile>
+  <tile id="22">
+   <image source="platform_tutorial/images/tiles/boxCrate_double.png"/>
+  </tile>
+  <tile id="23">
+   <image source="platform_tutorial/images/tiles/boxCrate_single.png"/>
+  </tile>
+  <tile id="24">
+   <image source="platform_tutorial/images/tiles/brickBrown.png"/>
+  </tile>
+  <tile id="25">
+   <image source="platform_tutorial/images/tiles/brickGrey.png"/>
+  </tile>
+  <tile id="26">
+   <image source="platform_tutorial/images/tiles/bridgeA.png"/>
+  </tile>
+  <tile id="27">
+   <image source="platform_tutorial/images/tiles/bridgeB.png"/>
+  </tile>
+  <tile id="28">
+   <image source="platform_tutorial/images/tiles/bush.png"/>
+  </tile>
+  <tile id="29">
+   <image source="platform_tutorial/images/tiles/cactus.png"/>
+  </tile>
+  <tile id="30">
+   <image source="platform_tutorial/images/tiles/dirt.png"/>
+  </tile>
+  <tile id="31">
+   <image source="platform_tutorial/images/tiles/dirtCenter.png"/>
+  </tile>
+  <tile id="32">
+   <image source="platform_tutorial/images/tiles/dirtCenter_rounded.png"/>
+  </tile>
+  <tile id="33">
+   <image source="platform_tutorial/images/tiles/dirtCliff_left.png"/>
+  </tile>
+  <tile id="34">
+   <image source="platform_tutorial/images/tiles/dirtCliff_right.png"/>
+  </tile>
+  <tile id="35">
+   <image source="platform_tutorial/images/tiles/dirtCliffAlt_left.png"/>
+  </tile>
+  <tile id="36">
+   <image source="platform_tutorial/images/tiles/dirtCliffAlt_right.png"/>
+  </tile>
+  <tile id="37">
+   <image source="platform_tutorial/images/tiles/dirtCorner_left.png"/>
+  </tile>
+  <tile id="38">
+   <image source="platform_tutorial/images/tiles/dirtCorner_right.png"/>
+  </tile>
+  <tile id="39">
+   <image source="platform_tutorial/images/tiles/dirtHalf.png"/>
+  </tile>
+  <tile id="40">
+   <image source="platform_tutorial/images/tiles/dirtHalf_left.png"/>
+  </tile>
+  <tile id="41">
+   <image source="platform_tutorial/images/tiles/dirtHalf_mid.png"/>
+  </tile>
+  <tile id="42">
+   <image source="platform_tutorial/images/tiles/dirtHalf_right.png"/>
+  </tile>
+  <tile id="43">
+   <image source="platform_tutorial/images/tiles/dirtHill_left.png"/>
+  </tile>
+  <tile id="44">
+   <image source="platform_tutorial/images/tiles/dirtHill_right.png"/>
+  </tile>
+  <tile id="45">
+   <image source="platform_tutorial/images/tiles/dirtLeft.png"/>
+  </tile>
+  <tile id="46">
+   <image source="platform_tutorial/images/tiles/dirtMid.png"/>
+  </tile>
+  <tile id="47">
+   <image source="platform_tutorial/images/tiles/dirtRight.png"/>
+  </tile>
+  <tile id="48">
+   <image source="platform_tutorial/images/tiles/doorClosed_mid.png"/>
+  </tile>
+  <tile id="49">
+   <image source="platform_tutorial/images/tiles/doorClosed_top.png"/>
+  </tile>
+  <tile id="50">
+   <image source="platform_tutorial/images/tiles/grass.png"/>
+  </tile>
+  <tile id="51">
+   <image source="platform_tutorial/images/tiles/grass_sprout.png"/>
+  </tile>
+  <tile id="52">
+   <image source="platform_tutorial/images/tiles/grassCenter.png"/>
+  </tile>
+  <tile id="53">
+   <image source="platform_tutorial/images/tiles/grassCenter_round.png"/>
+  </tile>
+  <tile id="54">
+   <image source="platform_tutorial/images/tiles/grassCliff_left.png"/>
+  </tile>
+  <tile id="55">
+   <image source="platform_tutorial/images/tiles/grassCliff_right.png"/>
+  </tile>
+  <tile id="56">
+   <image source="platform_tutorial/images/tiles/grassCliffAlt_left.png"/>
+  </tile>
+  <tile id="57">
+   <image source="platform_tutorial/images/tiles/grassCliffAlt_right.png"/>
+  </tile>
+  <tile id="58">
+   <image source="platform_tutorial/images/tiles/grassCorner_left.png"/>
+  </tile>
+  <tile id="59">
+   <image source="platform_tutorial/images/tiles/grassCorner_right.png"/>
+  </tile>
+  <tile id="60">
+   <image source="platform_tutorial/images/tiles/grassHalf.png"/>
+  </tile>
+  <tile id="61">
+   <image source="platform_tutorial/images/tiles/grassHalf_left.png"/>
+  </tile>
+  <tile id="62">
+   <image source="platform_tutorial/images/tiles/grassHalf_mid.png"/>
+  </tile>
+  <tile id="63">
+   <image source="platform_tutorial/images/tiles/grassHalf_right.png"/>
+  </tile>
+  <tile id="64">
+   <image source="platform_tutorial/images/tiles/grassHill_left.png"/>
+  </tile>
+  <tile id="65">
+   <image source="platform_tutorial/images/tiles/grassHill_right.png"/>
+  </tile>
+  <tile id="66">
+   <image source="platform_tutorial/images/tiles/grassLeft.png"/>
+  </tile>
+  <tile id="67">
+   <image source="platform_tutorial/images/tiles/grassMid.png"/>
+  </tile>
+  <tile id="68">
+   <image source="platform_tutorial/images/tiles/grassRight.png"/>
+  </tile>
+  <tile id="69">
+   <image source="platform_tutorial/images/tiles/ladderMid.png"/>
+  </tile>
+  <tile id="70">
+   <image source="platform_tutorial/images/tiles/ladderTop.png"/>
+  </tile>
+  <tile id="71">
+   <image source="platform_tutorial/images/tiles/lava.png"/>
+  </tile>
+  <tile id="72">
+   <image source="platform_tutorial/images/tiles/lavaTop_high.png"/>
+  </tile>
+  <tile id="73">
+   <image source="platform_tutorial/images/tiles/lavaTop_low.png"/>
+  </tile>
+  <tile id="74">
+   <image source="platform_tutorial/images/tiles/leverLeft.png"/>
+  </tile>
+  <tile id="75">
+   <image source="platform_tutorial/images/tiles/leverMid.png"/>
+  </tile>
+  <tile id="76">
+   <image source="platform_tutorial/images/tiles/leverRight.png"/>
+  </tile>
+  <tile id="77">
+   <image source="platform_tutorial/images/tiles/lockRed.png"/>
+  </tile>
+  <tile id="78">
+   <image source="platform_tutorial/images/tiles/lockYellow.png"/>
+  </tile>
+  <tile id="79">
+   <image width="128" height="128" source="images/tiles/mushroomRed.png"/>
+  </tile>
+  <tile id="80">
+   <image width="128" height="128" source="images/tiles/planet.png"/>
+  </tile>
+  <tile id="81">
+   <image width="128" height="128" source="images/tiles/planetCenter.png"/>
+  </tile>
+  <tile id="82">
+   <image width="128" height="128" source="images/tiles/planetCenter_rounded.png"/>
+  </tile>
+  <tile id="83">
+   <image width="128" height="128" source="images/tiles/planetCliff_left.png"/>
+  </tile>
+  <tile id="84">
+   <image width="128" height="128" source="images/tiles/planetCliff_right.png"/>
+  </tile>
+  <tile id="85">
+   <image width="128" height="128" source="images/tiles/planetCliffAlt_left.png"/>
+  </tile>
+  <tile id="86">
+   <image width="128" height="128" source="images/tiles/planetCliffAlt_right.png"/>
+  </tile>
+  <tile id="87">
+   <image width="128" height="128" source="images/tiles/planetCorner_left.png"/>
+  </tile>
+  <tile id="88">
+   <image width="128" height="128" source="images/tiles/planetCorner_right.png"/>
+  </tile>
+  <tile id="89">
+   <image source="platform_tutorial/images/tiles/planetHalf.png"/>
+  </tile>
+  <tile id="90">
+   <image width="128" height="128" source="images/tiles/planetHalf_left.png"/>
+  </tile>
+  <tile id="91">
+   <image width="128" height="128" source="images/tiles/planetHalf_mid.png"/>
+  </tile>
+  <tile id="92">
+   <image source="platform_tutorial/images/tiles/planetHalf_right.png"/>
+  </tile>
+  <tile id="93">
+   <image width="128" height="128" source="images/tiles/planetHill_left.png"/>
+  </tile>
+  <tile id="94">
+   <image width="128" height="128" source="images/tiles/planetHalf_right.png"/>
+  </tile>
+  <tile id="95">
+   <image width="128" height="128" source="images/tiles/planetLeft.png"/>
+  </tile>
+  <tile id="96">
+   <image width="128" height="128" source="images/tiles/planetMid.png"/>
+  </tile>
+  <tile id="97">
+   <image width="128" height="128" source="images/tiles/planetRight.png"/>
+  </tile>
+  <tile id="98">
+   <image width="128" height="128" source="images/tiles/plantPurple.png"/>
+  </tile>
+  <tile id="99">
+   <image width="128" height="128" source="images/tiles/rock.png"/>
+  </tile>
+  <tile id="100">
+   <image source="platform_tutorial/images/tiles/sand.png"/>
+  </tile>
+  <tile id="101">
+   <image source="platform_tutorial/images/tiles/sandCenter.png"/>
+  </tile>
+  <tile id="102">
+   <image source="platform_tutorial/images/tiles/sandCenter_rounded.png"/>
+  </tile>
+  <tile id="103">
+   <image source="platform_tutorial/images/tiles/sandCliff_left.png"/>
+  </tile>
+  <tile id="104">
+   <image source="platform_tutorial/images/tiles/sandCliff_right.png"/>
+  </tile>
+  <tile id="105">
+   <image source="platform_tutorial/images/tiles/sandCliffAlt_left.png"/>
+  </tile>
+  <tile id="106">
+   <image source="platform_tutorial/images/tiles/sandCliffAlt_right.png"/>
+  </tile>
+  <tile id="107">
+   <image source="platform_tutorial/images/tiles/sandCorner_leftg.png"/>
+  </tile>
+  <tile id="108">
+   <image source="platform_tutorial/images/tiles/sandCorner_right.png"/>
+  </tile>
+  <tile id="109">
+   <image source="platform_tutorial/images/tiles/sandHalf.png"/>
+  </tile>
+  <tile id="110">
+   <image source="platform_tutorial/images/tiles/sandHalf_left.png"/>
+  </tile>
+  <tile id="111">
+   <image source="platform_tutorial/images/tiles/sandHalf_mid.png"/>
+  </tile>
+  <tile id="112">
+   <image source="platform_tutorial/images/tiles/sandHalf_right.png"/>
+  </tile>
+  <tile id="113">
+   <image source="platform_tutorial/images/tiles/sandHill_left.png"/>
+  </tile>
+  <tile id="114">
+   <image source="platform_tutorial/images/tiles/sandHill_right.png"/>
+  </tile>
+  <tile id="115">
+   <image source="platform_tutorial/images/tiles/sandLeft.png"/>
+  </tile>
+  <tile id="116">
+   <image source="platform_tutorial/images/tiles/sandMid.png"/>
+  </tile>
+  <tile id="117">
+   <image source="platform_tutorial/images/tiles/sandRight.png"/>
+  </tile>
+  <tile id="118">
+   <image width="128" height="128" source="images/tiles/signExit.png"/>
+  </tile>
+  <tile id="119">
+   <image source="platform_tutorial/images/tiles/signLeft.png"/>
+  </tile>
+  <tile id="120">
+   <image width="128" height="128" source="images/tiles/signRight.png"/>
+  </tile>
+  <tile id="121">
+   <image source="platform_tutorial/images/tiles/snow.png"/>
+  </tile>
+  <tile id="122">
+   <image source="platform_tutorial/images/tiles/snow_pile.png"/>
+  </tile>
+  <tile id="123">
+   <image source="platform_tutorial/images/tiles/snowCenter.png"/>
+  </tile>
+  <tile id="124">
+   <image source="platform_tutorial/images/tiles/snowCenter_rounded.png"/>
+  </tile>
+  <tile id="125">
+   <image source="platform_tutorial/images/tiles/snowCliff_left.png"/>
+  </tile>
+  <tile id="126">
+   <image source="platform_tutorial/images/tiles/snowCliff_right.png"/>
+  </tile>
+  <tile id="127">
+   <image source="platform_tutorial/images/tiles/snowCliffAlt_left.png"/>
+  </tile>
+  <tile id="128">
+   <image source="platform_tutorial/images/tiles/snowCliffAlt_right.png"/>
+  </tile>
+  <tile id="129">
+   <image source="platform_tutorial/images/tiles/snowCorner_left.png"/>
+  </tile>
+  <tile id="130">
+   <image source="platform_tutorial/images/tiles/snowCorner_right.png"/>
+  </tile>
+  <tile id="131">
+   <image source="platform_tutorial/images/tiles/snowHalf.png"/>
+  </tile>
+  <tile id="132">
+   <image source="platform_tutorial/images/tiles/snowHalf_left.png"/>
+  </tile>
+  <tile id="133">
+   <image source="platform_tutorial/images/tiles/snowHalf_mid.png"/>
+  </tile>
+  <tile id="134">
+   <image source="platform_tutorial/images/tiles/snowHalf_right.png"/>
+  </tile>
+  <tile id="135">
+   <image source="platform_tutorial/images/tiles/snowHill_left.png"/>
+  </tile>
+  <tile id="136">
+   <image source="platform_tutorial/images/tiles/snowHill_right.png"/>
+  </tile>
+  <tile id="137">
+   <image source="platform_tutorial/images/tiles/snowLeft.png"/>
+  </tile>
+  <tile id="138">
+   <image source="platform_tutorial/images/tiles/snowMid.png"/>
+  </tile>
+  <tile id="139">
+   <image source="platform_tutorial/images/tiles/snowRight.png"/>
+  </tile>
+  <tile id="140">
+   <image width="128" height="128" source="images/tiles/spikes.png"/>
+  </tile>
+  <tile id="141">
+   <image source="platform_tutorial/images/tiles/stone.png"/>
+  </tile>
+  <tile id="142">
+   <image source="platform_tutorial/images/tiles/stoneCenter.png"/>
+  </tile>
+  <tile id="143">
+   <image source="platform_tutorial/images/tiles/stoneCenter_rounded.png"/>
+  </tile>
+  <tile id="144">
+   <image source="platform_tutorial/images/tiles/stoneCliff_left.png"/>
+  </tile>
+  <tile id="145">
+   <image source="platform_tutorial/images/tiles/stoneCliff_right.png"/>
+  </tile>
+  <tile id="146">
+   <image source="platform_tutorial/images/tiles/stoneCliffAlt_left.png"/>
+  </tile>
+  <tile id="147">
+   <image source="platform_tutorial/images/tiles/stoneCliffAlt_right.png"/>
+  </tile>
+  <tile id="148">
+   <image source="platform_tutorial/images/tiles/stoneCorner_left.png"/>
+  </tile>
+  <tile id="149">
+   <image source="platform_tutorial/images/tiles/stoneCorner_right.png"/>
+  </tile>
+  <tile id="150">
+   <image source="platform_tutorial/images/tiles/stoneHalf.png"/>
+  </tile>
+  <tile id="151">
+   <image source="platform_tutorial/images/tiles/stoneHalf_left.png"/>
+  </tile>
+  <tile id="152">
+   <image source="platform_tutorial/images/tiles/stoneHalf_mid.png"/>
+  </tile>
+  <tile id="153">
+   <image source="platform_tutorial/images/tiles/stoneHalf_right.png"/>
+  </tile>
+  <tile id="154">
+   <image source="platform_tutorial/images/tiles/stoneHill_left.png"/>
+  </tile>
+  <tile id="155">
+   <image source="platform_tutorial/images/tiles/stoneHill_right.png"/>
+  </tile>
+  <tile id="156">
+   <image source="platform_tutorial/images/tiles/stoneLeft.png"/>
+  </tile>
+  <tile id="157">
+   <image source="platform_tutorial/images/tiles/stoneMid.png"/>
+  </tile>
+  <tile id="158">
+   <image source="platform_tutorial/images/tiles/stoneRight.png"/>
+  </tile>
+  <tile id="159">
+   <image source="platform_tutorial/images/tiles/switchGreen.png"/>
+  </tile>
+  <tile id="160">
+   <image source="platform_tutorial/images/tiles/switchGreen_pressed.png"/>
+  </tile>
+  <tile id="161">
+   <image source="platform_tutorial/images/tiles/switchRed.png"/>
+  </tile>
+  <tile id="162">
+   <image source="platform_tutorial/images/tiles/switchRed_pressed.png"/>
+  </tile>
+  <tile id="163">
+   <image source="platform_tutorial/images/tiles/water.png"/>
+  </tile>
+  <tile id="164">
+   <image source="platform_tutorial/images/tiles/waterTop_high.png"/>
+  </tile>
+  <tile id="165">
+   <image source="platform_tutorial/images/tiles/waterTop_low.png"/>
+  </tile>
+ </tileset>
+ <layer id="2" name="Platforms" width="45" height="30">
+  <data encoding="base64" compression="zlib">
+   eAHtkuEKhDAMg31GOcFfx+7e/yFMkICUObWo3GEKc9NuafbZrnOYgAmYgAmYgAmYgAmYgAmYwHMI9LiqxnNuPd+U974iPhDVyOi3fLVymVo8Q6/qgax+PPeC5kBxhLTnt31PelqLgoQ0NWsv64p9bZYn7T9rLhCil1jzu1KAe/8tjnqu/YsM/1YvbDE86nlLr5Z/h4/0u+wFpguGeoHr2Cd8Z15nsTw9ChRVd8R66Zt+72CFMumgv+g7LXbTQXGlb7H/5Zk9OAEf6yvV
+  </data>
+ </layer>
+ <layer id="4" name="Background" width="45" height="30">
+  <data encoding="base64" compression="zlib">
+   eAHt0jEOACAIQ1GO6G0Mt3dyYaNdMH43Eyv4MIKFAAIIIIAAAggggAACCHgCy4s/mc6hXf84izoK1UDN1frufkof7jvI6wKdP9A5q3Z0a2z1AnIIDBU4jF4DcQ==
+  </data>
+ </layer>
+ <layer id="1" name="Coins" width="45" height="30">
+  <data encoding="base64" compression="zlib">
+   eAHt0dEGACAMheHp/R+6dnHI6GJLLP7IRGfalxkLAQQQQAABBBBAAAEEEKgJjBXTrnX4N+Vzs3oK3PyNsqfac+K+r5Jj5YXKxprppezrTKZ/9q7PsM+hc6zZvtxHAAGzCf1YAC8=
+  </data>
+ </layer>
+ <layer id="5" name="Foreground" width="45" height="30">
+  <data encoding="base64" compression="zlib">
+   eAHt0IEAAAAAw6D5Ux/khVBhwIABAwYMGDBgwIABAwYMGDBgwICBr4EBFRgAAQ==
+  </data>
+ </layer>
+ <layer id="3" name="Don't Touch" width="45" height="30" opacity="0.28">
+  <data encoding="base64" compression="zlib">
+   eAHt0kEKACAIBED/D/05ekFCHVaYoFMW61iVRYAAAQIECBAgQIAAAQJJAispzCXLa9bO/U7NJebX47Q8X5vz2FgB/3Ls6NrBz4yTd7uRoMINiV4ZVw==
+  </data>
+ </layer>
+</map>
